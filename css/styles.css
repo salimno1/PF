@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,10 +39,11 @@ header {
   background: white;
 }
 #bannertext {
-  font-size: 3rem;
+  font-size: 8rem;
+  font-family: "Alex Brush", cursive;
 }
 header h1 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 header h2 {
   font-size: 1.75rem;
@@ -227,12 +232,7 @@ footer {
   background-color: #000;
 }
 h1 {
-  font-family: Mr Dafoe, sans-serif;
-  font-size: 36em;
-  text-align: center;
-  text-shadow: 0 -3px 0 #333, 0 6px 8px rgba(0, 0, 0, 0.4),
-    0 9px 10px rgba(0, 0, 0, 0.15), 0 30px 10px rgba(0, 0, 0, 0.18),
-    0 15px 10px rgba(0, 0, 0, 0.21);
+  font-family: "Smooch", cursive;
 }
 .project {
   background-color: #000;
