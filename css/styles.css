@@ -252,8 +252,8 @@ h1 {
 #menuToggle {
   display: block;
   position: fixed;
-  top: 50px;
-  left: 50px;
+  top: 25px;
+  left: 25px;
 
   z-index: 1;
 
