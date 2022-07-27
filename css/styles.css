@@ -254,7 +254,6 @@ h1 {
   position: fixed;
   top: 25px;
   left: 25px;
-
   z-index: 1;
 
   -webkit-user-select: none;
