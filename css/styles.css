@@ -139,7 +139,7 @@ a {
 .scroll div:nth-child(3) {
   background: white;
 }
-.link {
+.footerlink {
   display: flex;
   padding-top: 100px;
 }
