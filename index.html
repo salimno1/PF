@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="banner">
+
+            <div id="bannertext">
+
+                <h2>Salim Mvoungui</h2>
+                <h2>Front-end developer</h2>
+                <br>
+
+
+            </div>
+        </div>
+
+
+    </header>
+    <section class="wrapper">
+
+        <div class="title revealUp" id="about1">
+            <p id="project">Project 1</p>
+            <h2 class="h2Style">Game Lobby</h2>
+            <div class="infoText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae hic odit recusandae sit eveniet quos
+                veniam tempora at cupiditate deleniti. Consectetur voluptas temporibus eius adipisci optio commodi
+                dolores laborum similique.
+                <span>
+                    <p class="project">Focus:</p> React, Node.js and login form with validation
+                </span>
+                <span>
+                    <p class="project">Github:</p> <a href="https://github.com/salimno1/Game-lobby" class="link">Game
+                        lobby</a>
+                </span>
+            </div>
+        </div>
+        <div class="scroll">
+            <div class="p1">
+                <div class="pic-left">
+                    <img class="picLeft1" src="./img/game1.png" alt="">
+                    <img class="picLeft2" src="./img/game4.png" alt="">
+                    <img class="picRight1" src="./img/game5.png" alt="">
+                    <img class="picRight3" src="./img/game6.png" alt="">
+
+                </div>
+            </div>
+            <div class="p2">
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="wrapper">
+        <div class="title revealUp" id="about">
+            <p class="project">Project 2</p>
+            <h2 class="h2Style">MMA Community</h2>
+            <div class="infoText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae hic odit recusandae sit eveniet quos
+                veniam tempora at cupiditate deleniti. Consectetur voluptas temporibus eius adipisci optio commodi
+                dolores laborum similique.
+                <span>
+                    <p class="project">Focus:</p> React, Node.js and login form with validation
+                </span>
+                <span>
+                    <p class="project">Github:</p> <a href="https://github.com/salimno1/Game-lobby" class="link">MMA
+                        Community</a>
+                </span>
+            </div>
+        </div>
+        <div class="scroll">
+            <div class="p1">
+                <div class="pic-left">
+                    <img class="picLeft1" src="./img/mma1.png" alt="">
+                    <img class="picLeft2" src="./img/mma2.png" alt="">
+                    <img class="picRight1" src="./img/mma3.png" alt="">
+                    <img class="picRight3" src="./img/mma4.png" alt="">
+
+                </div>
+
+            </div>
+            <div class="p2">
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="wrapper">
+        <div class="title revealUp" id="about">
+            <p class="project">Project 3</p>
+            <h2 class="h2Style">Vi Tar Plats</h2>
+            <div class="infoText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi, ipsam quos
+                natus aperiam,
+                nemo minus, exercitationem maxime explicabo nihil ipsa. Cumque modi accusamus tempore, beatae similique
+                recusandae eius quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus qui dolor
+                ab accusantium illum voluptate impedit delectus tempora voluptatum cupiditate, ipsam maxime dolore
+                dolorum ad! Nostrum saepe voluptates magnam!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Minima eligendi aperiam magnam nobis iste sed modi perspiciatis dicta reiciendis quibusdam, rem in
+                possimus voluptatibus doloribus molestiae porro enim at animi!</div>
+        </div>
+        <div class="scroll">
+            <div class="p1">
+                <div class="pic-left">
+                    <img class="picLeft1" src="./img/vi1.png" alt="">
+                    <img class="picLeft2" src="./img/vi2.png" alt="">
+                    <img class="picRight1" src="./img/vi3.png" alt="">
+                    <img class="picRight3" src="./img/vi4.png" alt="">
+                </div>
+
+            </div>
+            <div class="p2">
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div>
+            salim.mvoungui@gmail.com
+        </div>
+        <div class="link">
+            <a href="https://github.com/salimno1">
+                <i class="fab fa-github icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/salim-mvoungui-45b9a179/">
+                <i class="fab fa-linkedin icon"></i>
+            </a>
+        </div>
+    </footer>
+    <script>
+
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray(".revealUp").forEach(function (elem) {
+            ScrollTrigger.create({
+                trigger: elem,
+                start: "top 60%",
+                end: "bottom -40%",
+                markers: false,
+                onEnter: function () {
+                    gsap.fromTo(
+                        elem,
+                        { y: 100, autoAlpha: 0 },
+                        {
+                            duration: 1.1,
+                            y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeave: function () {
+                    gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+                },
+                onEnterBack: function () {
+                    gsap.fromTo(
+                        elem,
+                        { y: -100, autoAlpha: 0 },
+                        {
+                            duration: 2,
+                            y: 0,
+                            autoAlpha: 1,
+                            ease: "back",
+                            overwrite: "auto"
+                        }
+                    );
+                },
+                onLeaveBack: function () {
+                    gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+                }
+            });
+        });
+
+
+
+    </script>
+</body>
+
+</html>
