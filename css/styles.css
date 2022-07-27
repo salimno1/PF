@@ -34,7 +34,9 @@ header {
   color: rgb(17, 17, 17);
   background: white;
 }
-
+#bannertext {
+  font-size: 3rem;
+}
 header h1 {
   font-size: 4rem;
 }
