@@ -39,8 +39,8 @@ header {
   background: white;
 }
 #bannertext {
-  font-size: 8rem;
-  font-family: "Alex Brush", cursive;
+  font-size: 2rem;
+  text-align: center;
 }
 header h1 {
   font-size: 6rem;
@@ -145,7 +145,17 @@ a {
 }
 .footerlink {
   display: flex;
-  padding-top: 100px;
+  padding-top: 10px;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
 }
 #skills {
   margin-top: 100px;
@@ -181,7 +191,7 @@ footer {
   border-top: 1px solid black;
 }
 .icon {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .mindset {
