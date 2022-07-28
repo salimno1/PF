@@ -134,7 +134,6 @@ a {
 }
 
 .scroll div:nth-child(1) {
-  background: white;
 }
 
 .scroll div:nth-child(2) {
@@ -148,6 +147,25 @@ a {
   display: flex;
   padding-top: 100px;
 }
+.skills {
+  padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skilllogo {
+  height: 64px;
+  width: 64px;
+  box-shadow: none;
+}
+.skilllogo1 {
+  height: 80px;
+  width: 300px;
+  box-shadow: none;
+}
+
 footer {
   margin-top: 100px;
   height: 100vh;
