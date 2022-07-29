@@ -40,7 +40,7 @@ header {
 }
 
 #banner {
-  animation: moveToRight 1.5s ease-in-out;
+  animation: moveToRight 1s ease-in-out;
   animation-delay: 0s;
 }
 #bannertext {
