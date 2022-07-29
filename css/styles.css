@@ -50,7 +50,7 @@ header {
 
 @keyframes moveToRight {
   0% {
-    transform: translateX(-1000px);
+    transform: translateX(-1100px);
   }
   100% {
     transform: translateX(0px);
@@ -59,6 +59,10 @@ header {
 
 header h1 {
   font-size: 6rem;
+  color: white;
+  background-color: rgb(30, 30, 30);
+  width: 800px;
+  border-radius: 5px;
 }
 header h2 {
   font-size: 1.75rem;
@@ -252,7 +256,7 @@ footer {
   font-weight: 10;
 }
 .h2Style {
-  background-color: rgba(0, 0, 0, 0.919);
+  background-color: rgb(30, 30, 30);
   color: white;
   align-self: center;
   padding: 10px;
@@ -289,7 +293,7 @@ h1 {
 }
 
 .project {
-  background-color: #000;
+  background-color: rgb(30, 30, 30);
   color: white;
   font-weight: bold;
   text-align: center;
