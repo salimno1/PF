@@ -262,6 +262,7 @@ footer {
   padding: 10px;
   margin-top: 200px;
   text-align: center;
+  border-radius: 5px;
 }
 .infoText {
   padding: 20px;
@@ -291,6 +292,15 @@ h1 {
   font-family: "Smooch", cursive;
   animation: example;
 }
+.project1 {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
 
 .project {
   background-color: rgb(30, 30, 30);
@@ -298,9 +308,10 @@ h1 {
   font-weight: bold;
   text-align: center;
   width: 100px;
+  border-radius: 5px;
 }
 #project {
-  background-color: #000;
+  background-color: rgb(30, 30, 30);
   color: white;
   font-weight: bold;
   text-align: center;
