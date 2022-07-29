@@ -38,10 +38,25 @@ header {
   color: rgb(17, 17, 17);
   background: white;
 }
+
+#banner {
+  animation: moveToRight 1.5s ease-in-out;
+  animation-delay: 0s;
+}
 #bannertext {
   font-size: 2rem;
   text-align: center;
 }
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 header h1 {
   font-size: 6rem;
 }
@@ -166,10 +181,12 @@ a {
   align-items: center;
   flex-direction: column;
 }
+
 .skilllogo {
   height: 64px;
   width: 64px;
   box-shadow: none;
+  margin: 10px 50px 0 50px;
 }
 .skilllogo1 {
   height: 80px;
@@ -258,9 +275,19 @@ footer {
   height: 50vh;
   background-color: #000;
 }
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
 h1 {
   font-family: "Smooch", cursive;
+  animation: example;
 }
+
 .project {
   background-color: #000;
   color: white;
