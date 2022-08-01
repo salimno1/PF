@@ -40,7 +40,7 @@ header {
 }
 
 #banner {
-  animation: moveToRight 1s ease-in-out;
+  animation: moveToRight 1.5s ease-in-out;
   animation-delay: 0s;
 }
 #bannertext {
@@ -263,6 +263,17 @@ footer {
   margin-top: 200px;
   text-align: center;
   border-radius: 5px;
+}
+
+.h2Style1 {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  align-self: center;
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
 .infoText {
   padding: 20px;
