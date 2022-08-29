@@ -15,490 +15,492 @@ body {
 
   background-color: rgb(0, 0, 0);
 }
+
+img {
+  height: 220px;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: 1px solid silver;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#about {
+  margin-left: 100px;
+  height: 100%;
+}
+#about1 {
+  margin-left: 100px;
+  height: 100%;
+}
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(17, 17, 17);
+}
+
+#banner {
+  animation: moveToRight 1.5s ease-in-out;
+  animation-delay: 0s;
+}
+#bannertext {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-1100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+header h1 {
+  font-size: 6rem;
+  color: rgb(0, 0, 0);
+  background-color: #eee;
+  width: 800px;
+  border-radius: 5px;
+}
+header h2 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #eee;
+  letter-spacing: 5px;
+  animation: ani 3s;
+  text-align: center;
+}
+
+@keyframes ani {
+  from {
+    letter-spacing: 35px;
+    filter: blur(5px);
+    opacity: 0;
+  }
+  to {
+    letter-spacing: 5px;
+    filter: blur(0);
+    opacity: 1px;
+  }
+}
+a {
+  color: white;
+  margin: 1rem;
+}
+
+.wrapper {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  display: flex;
+}
+
+#about {
+  color: #eee;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 100vh;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.scroll {
+  width: 50%;
+  color: white;
+  z-index: 0;
+}
+
+.p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pic-left {
+  margin-top: 40%;
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pic-left3 {
+  margin-top: 20%;
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.pic-right3 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.scroll div {
+  display: flex;
+  flex-direction: row;
+
+  height: 100vh;
+}
+
+.scroll div > h2 {
+  width: 80%;
+  text-align: center;
+}
+
+.scroll div > p {
+  width: 80%;
+}
+
+.scroll div:nth-child(1) {
+}
+
+.scroll div:nth-child(2) {
+}
+
+.scroll div:nth-child(3) {
+  background: white;
+}
+.footerlink {
+  display: flex;
+  padding-top: 10px;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+#skills {
+  margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: EnV, Arial, Helvetica, sans-serif;
+}
+
+.skilllogo {
+  height: 64px;
+  width: 64px;
+  box-shadow: none;
+  margin: 10px 50px 0 50px;
+  border: none;
+}
+.skilllogo1 {
+  height: 80px;
+  width: 300px;
+  box-shadow: none;
+  border: none;
+}
+
+#aboutMe {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 24px;
+  color: #eee;
+  width: 50%;
+}
+
+footer {
+  margin-top: 100px;
+  height: 100vh;
+  background: black;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem;
+  border-top: 1px solid black;
+  font-family: EnV, Arial, Helvetica, sans-serif;
+}
+
+.icon {
+  color: #eee;
+}
+
+.mindset {
+  width: 55ch;
+  animation: typing 4s steps(55), blink 0.5s step-end infinite alternate;
+
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.link {
+  color: #eee;
+  text-decoration: none;
+  margin: 0;
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 0.433);
+  text-decoration: none;
+  margin: 0;
+}
+.h3Info {
+  color: rgb(0, 0, 0);
+  width: 60px;
+
+  margin-bottom: 10px;
+  font-weight: 10;
+}
+.h2Style {
+  background-color: #eee;
+  color: rgb(51, 51, 51);
+  align-self: center;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.h2Style1 {
+  background-color: #eee;
+  color: rgb(51, 51, 51);
+  align-self: center;
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.infoText {
+  padding: 20px 0px;
+
+  color: #eee;
+  font-size: 1.4rem;
+
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+  font-size: 1.4rem;
+  color: #eee;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+h1 {
+  font-family: "Smooch", cursive;
+  animation: example;
+}
+.project1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  border-radius: 5px;
+
+  margin-bottom: 100px;
+}
+
+.project {
+  background-color: #eee;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.projectU {
+  background-color: #eee;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  margin: 5px;
+}
+#project {
+  background-color: #eee;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  font-size: 1.4rem;
+  margin-top: 100px;
+}
+
+#menuToggle {
+  display: block;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: bold;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: rgb(186, 186, 186);
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #eee;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #eee;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
 @media screen and (min-width: 400px) {
   .scroll1 {
     display: none;
   }
-  img {
-    height: 220px;
-    width: 600px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 50px;
-    border: 1px solid silver;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-
-  #about {
-    margin-left: 100px;
-    height: 100%;
-  }
-  #about1 {
-    margin-left: 100px;
-    height: 100%;
-  }
-  header {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(17, 17, 17);
-  }
-
-  #banner {
-    animation: moveToRight 1.5s ease-in-out;
-    animation-delay: 0s;
-  }
-  #bannertext {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  @keyframes moveToRight {
-    0% {
-      transform: translateX(-1100px);
-    }
-    100% {
-      transform: translateX(0px);
-    }
-  }
-
-  header h1 {
-    font-size: 6rem;
-    color: rgb(0, 0, 0);
-    background-color: #eee;
-    width: 800px;
-    border-radius: 5px;
-  }
-  header h2 {
-    font-size: 1.75rem;
-    text-align: center;
-    color: #eee;
-    letter-spacing: 5px;
-    animation: ani 3s;
-    text-align: center;
-  }
-
-  @keyframes ani {
-    from {
-      letter-spacing: 35px;
-      filter: blur(5px);
-      opacity: 0;
-    }
-    to {
-      letter-spacing: 5px;
-      filter: blur(0);
-      opacity: 1px;
-    }
-  }
-  a {
-    color: white;
-    margin: 1rem;
-  }
-
-  .wrapper {
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    display: flex;
-  }
-
-  #about {
-    color: #eee;
-  }
-
-  .title {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    height: 100vh;
-
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    overflow: hidden;
-  }
-
-  .scroll {
-    width: 50%;
-    color: white;
-    z-index: 0;
-  }
-
-  .p1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .pic-left {
-    margin-top: 40%;
-    width: 50%;
-    height: 100%;
-
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-
-  .pic-left3 {
-    margin-top: 20%;
-    width: 50%;
-    height: 100%;
-
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  .pic-right3 {
-    width: 50%;
-    height: 100%;
-
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-
-  .scroll div {
-    display: flex;
-    flex-direction: row;
-
-    height: 100vh;
-  }
-
-  .scroll div > h2 {
-    width: 80%;
-    text-align: center;
-  }
-
-  .scroll div > p {
-    width: 80%;
-  }
-
-  .scroll div:nth-child(1) {
-  }
-
-  .scroll div:nth-child(2) {
-  }
-
-  .scroll div:nth-child(3) {
-    background: white;
-  }
-  .footerlink {
-    display: flex;
-    padding-top: 10px;
-  }
-  .circle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    border-radius: 50%;
-    width: 450px;
-    height: 450px;
-  }
-  #skills {
-    margin-top: 100px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-family: EnV, Arial, Helvetica, sans-serif;
-  }
-
-  .skilllogo {
-    height: 64px;
-    width: 64px;
-    box-shadow: none;
-    margin: 10px 50px 0 50px;
-    border: none;
-  }
-  .skilllogo1 {
-    height: 80px;
-    width: 300px;
-    box-shadow: none;
-    border: none;
-  }
-
-  #aboutMe {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .aboutContainer {
-    padding-top: 50px;
-    text-align: center;
-    font-size: 24px;
-    color: #eee;
-    width: 50%;
-  }
-
-  footer {
-    margin-top: 100px;
-    height: 100vh;
-    background: black;
-    color: #eee;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 3rem;
-    padding: 1rem;
-    border-top: 1px solid black;
-    font-family: EnV, Arial, Helvetica, sans-serif;
-  }
-
-  .icon {
-    color: #eee;
-  }
-
-  .mindset {
-    width: 55ch;
-    animation: typing 4s steps(55), blink 0.5s step-end infinite alternate;
-
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-  }
-
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  .link {
-    color: #eee;
-    text-decoration: none;
-    margin: 0;
-  }
-
-  .link:hover {
-    color: rgba(0, 0, 0, 0.433);
-    text-decoration: none;
-    margin: 0;
-  }
-  .h3Info {
-    color: rgb(0, 0, 0);
-    width: 60px;
-
-    margin-bottom: 10px;
-    font-weight: 10;
-  }
-  .h2Style {
-    background-color: #eee;
-    color: rgb(51, 51, 51);
-    align-self: center;
-    padding: 10px;
-    margin-top: 50px;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 2.5rem;
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-  }
-
-  .h2Style1 {
-    background-color: #eee;
-    color: rgb(51, 51, 51);
-    align-self: center;
-    padding: 10px;
-    margin-top: 100px;
-    text-align: center;
-    border-radius: 5px;
-    margin-bottom: 100px;
-  }
-  .infoText {
-    padding: 20px 0px;
-
-    color: #eee;
-    font-size: 1.4rem;
-
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-  }
-
-  .revealUp {
-    opacity: 0;
-    visibility: hidden;
-    font-size: 1.4rem;
-    color: #eee;
-  }
-  .spacer {
-    height: 50vh;
-    background-color: #000;
-  }
-  @keyframes example {
-    from {
-      background-color: red;
-    }
-    to {
-      background-color: yellow;
-    }
-  }
-  h1 {
-    font-family: "Smooch", cursive;
-    animation: example;
-  }
-  .project1 {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    width: 100px;
-    border-radius: 5px;
-
-    margin-bottom: 100px;
-  }
-
-  .project {
-    background-color: #eee;
-    color: #333;
-    font-weight: bold;
-    text-align: center;
-    width: 100px;
-    margin-top: 100px;
-    border-radius: 5px;
-  }
-  .projectU {
-    background-color: #eee;
-    color: #333;
-    font-weight: bold;
-    text-align: center;
-    width: 100px;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    margin: 5px;
-  }
-  #project {
-    background-color: #eee;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    text-align: center;
-    width: 100px;
-    font-size: 1.4rem;
-    margin-top: 100px;
-  }
-
-  #menuToggle {
-    display: block;
-    position: fixed;
-    top: 25px;
-    left: 25px;
-    z-index: 1;
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-
-    -webkit-user-select: none;
-    user-select: none;
-  }
-
-  #menuToggle a {
-    text-decoration: none;
-    color: #eee;
-    font-weight: bold;
-
-    transition: color 0.3s ease;
-  }
-
-  #menuToggle a:hover {
-    color: rgb(186, 186, 186);
-  }
-
-  #menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-
-    cursor: pointer;
-
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-
-    -webkit-touch-callout: none;
-  }
-
-  #menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-
-    background: #eee;
-    border-radius: 3px;
-
-    z-index: 1;
-
-    transform-origin: 4px 0px;
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-  }
-
-  #menuToggle span:first-child {
-    transform-origin: 0% 0%;
-  }
-
-  #menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-  }
-
-  #menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #eee;
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
-
-  #menu {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  }
-
-  #menu li {
-    padding: 10px 0;
-    font-size: 22px;
-  }
-
-  /*
- * And let's slide it in from the left
- */
-  #menuToggle input:checked ~ ul {
-    transform: none;
-  }
 }
+
 @media screen and (max-width: 400px) {
   header {
     height: 100vh;
@@ -539,9 +541,12 @@ body {
     width: 100%;
     padding: 0px 20px;
   }
+  .aboutMeP {
+    font-size: 20px;
+  }
 
   #footer {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #about {
@@ -603,6 +608,7 @@ body {
   #menu {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.798);
+    height: 100vh;
     margin: -100px 0 0 -50px;
     padding: 50px;
     text-align: center;
