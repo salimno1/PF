@@ -502,6 +502,9 @@ h1 {
 }
 
 @media screen and (max-width: 400px) {
+  .title {
+    display: none;
+  }
   header h1 {
     width: 100%;
     font-size: 40px;
@@ -592,6 +595,7 @@ h1 {
   .skilllogo {
     height: 40px;
     width: 40px;
+    margin: 10px;
   }
   .skilllogo1 {
     height: 40px;
@@ -600,7 +604,7 @@ h1 {
   .frontend {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #menu {
@@ -635,7 +639,6 @@ h1 {
     padding: 0;
   }
   .revealUp {
-    display: none;
   }
   .infoText {
     padding: 20px 0px;
