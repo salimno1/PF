@@ -97,6 +97,10 @@ a {
   font-family: "Alumni Sans Pinstripe", sans-serif;
   display: flex;
 }
+.wrapper {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  display: flex;
+}
 
 #about {
   color: #eee;
