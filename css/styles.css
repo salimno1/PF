@@ -624,6 +624,12 @@ h1 {
     overflow: hidden;
   }
   #container {
+    scroll-behavior: smooth;
+    height: 95vh;
+    max-height: 95%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
   }
   body {
     margin: 5px;
