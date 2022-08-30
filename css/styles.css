@@ -680,4 +680,7 @@ h1 {
     font-size: 1rem;
     font-family: EnV, Arial, Helvetica, sans-serif;
   }
+  #skills p {
+    margin: 0;
+  }
 }
