@@ -93,7 +93,7 @@ a {
   margin: 1rem;
 }
 
-.wrapper {
+#wrapper {
   font-family: "Alumni Sans Pinstripe", sans-serif;
   display: flex;
 }
