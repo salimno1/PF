@@ -504,7 +504,7 @@ h1 {
 @media screen and (max-width: 400px) {
   header h1 {
     width: 100%;
-    font-size: 20px;
+    font-size: 40px;
   }
   header h2 {
     font-size: 1.75rem;
