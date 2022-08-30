@@ -548,11 +548,14 @@ h1 {
     padding: 0px 20px;
   }
   .aboutContainer {
-    height: 100vh;
+    height: 80vh;
+    width: 500px;
+
     font-size: 18px;
     margin: 0px;
     width: 100%;
     padding: 0px 20px;
+    border: 1px solid white;
   }
   .scroll1 {
     padding: 0px 20px;
