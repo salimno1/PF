@@ -192,7 +192,7 @@ a {
   height: 450px;
 }
 #skills {
-  margin-top: 100px;
+  margin-top: 50px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -602,6 +602,7 @@ h1 {
     width: 40px;
   }
   .frontend {
+    margin-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
